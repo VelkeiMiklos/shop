@@ -18,7 +18,6 @@ class ShopVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
         tableView.dataSource = self
     }
 
-
     func numberOfSections(in tableView: UITableView) -> Int {
         return 1
     }
@@ -37,6 +36,22 @@ class ShopVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
         }
         
     }
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let category = DataServices.instance.getCategories()[indexPath.row]
+        performSegue(withIdentifier: "toProduct", sender: category)
+    }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "toProduct"{
+            let backItem = UIBarButtonItem()
+            backItem.title = ""
+
+            navigationItem.backBarButtonItem = backItem
+            
+            if let destinationVC = segue.destination as? ProductVC{
+                destinationVC.initProduct(category: sender as! Category)
+            }
+        }
+    }
 }
 
