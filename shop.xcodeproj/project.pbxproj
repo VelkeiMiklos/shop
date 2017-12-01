@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F544CDBB1FD15CC5007B6EAF /* AuthVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F544CDBA1FD15CC5007B6EAF /* AuthVC.swift */; };
+		F544CDBD1FD15CE2007B6EAF /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F544CDBC1FD15CE2007B6EAF /* RoundedButton.swift */; };
 		F5618B7C1F9508F800849125 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5618B7B1F9508F800849125 /* AppDelegate.swift */; };
 		F5618B7E1F9508F800849125 /* ShopVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5618B7D1F9508F800849125 /* ShopVC.swift */; };
 		F5618B811F9508F800849125 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5618B7F1F9508F800849125 /* Main.storyboard */; };
@@ -22,6 +24,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F544CDBA1FD15CC5007B6EAF /* AuthVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthVC.swift; sourceTree = "<group>"; };
+		F544CDBC1FD15CE2007B6EAF /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 		F5618B781F9508F800849125 /* shop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = shop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5618B7B1F9508F800849125 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F5618B7D1F9508F800849125 /* ShopVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopVC.swift; sourceTree = "<group>"; };
@@ -96,6 +100,7 @@
 			children = (
 				F5618B931F950E0500849125 /* ShopCell.swift */,
 				F5618B9A1F95193300849125 /* ProductCell.swift */,
+				F544CDBC1FD15CE2007B6EAF /* RoundedButton.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -105,6 +110,7 @@
 			children = (
 				F5618B7D1F9508F800849125 /* ShopVC.swift */,
 				F5618B9E1F951E0A00849125 /* ProductVC.swift */,
+				F544CDBA1FD15CC5007B6EAF /* AuthVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -189,11 +195,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F544CDBB1FD15CC5007B6EAF /* AuthVC.swift in Sources */,
 				F5618B7E1F9508F800849125 /* ShopVC.swift in Sources */,
 				F5618B9D1F9519EF00849125 /* Product.swift in Sources */,
 				F5618B961F950EC300849125 /* Category.swift in Sources */,
 				F5618B841F9508F800849125 /* shop.xcdatamodeld in Sources */,
 				F5618B991F950FF800849125 /* DataServices.swift in Sources */,
+				F544CDBD1FD15CE2007B6EAF /* RoundedButton.swift in Sources */,
 				F5618B7C1F9508F800849125 /* AppDelegate.swift in Sources */,
 				F5618B9F1F951E0A00849125 /* ProductVC.swift in Sources */,
 				F5618B9B1F95193300849125 /* ProductCell.swift in Sources */,
