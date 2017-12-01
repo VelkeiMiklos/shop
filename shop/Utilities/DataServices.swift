@@ -15,7 +15,7 @@ class DataServices{
         Category(categoryName: "SHIRTS", categoryImage: "shirts.png"),
         Category(categoryName: "HOODIES", categoryImage: "hoodies.png"),
         Category(categoryName: "HATS", categoryImage: "hats.png"),
-     //   Category(categoryName: "DIGITAL", categoryImage: "digital.png")
+        Category(categoryName: "DIGITAL", categoryImage: "digital.png")
         
     ]
     

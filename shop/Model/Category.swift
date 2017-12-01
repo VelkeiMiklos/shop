@@ -15,4 +15,6 @@ struct Category{
         self.categoryName = categoryName
         self.categoryImage = categoryImage
     }
+    
+
 }
